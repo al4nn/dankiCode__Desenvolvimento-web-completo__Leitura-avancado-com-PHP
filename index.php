@@ -4,7 +4,7 @@
 
 $xml = simplexml_load_file('arquivo.xml');
 
-echo($xml->informacoes->item->title);
+echo $xml->informacoes->item->title;
 echo $xml->informacoes2->item->title;
 
 // CRIANDO ARQUIVO XML A PARTIR DE UM ARRAY
